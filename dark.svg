@@ -1,0 +1,489 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 610" width="1180" height="610" role="img" aria-label="Anshuman Guleria - Software Engineer and Game Dev Profile Banner">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad_dark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="50%" stop-color="#071124" />
+      <stop offset="100%" stop-color="#040915" />
+    </linearGradient>
+
+    <!-- Accent Gradient -->
+    <linearGradient id="accentGrad_dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <!-- Scanline Gradient -->
+    <linearGradient id="scanGrad_dark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Ambient Glow Radials -->
+    <radialGradient id="blueGlow_dark" cx="8%" cy="12%" r="55%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="emeraldGlow_dark" cx="92%" cy="88%" r="55%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Cyber Grid Pattern -->
+    <pattern id="dotGrid_dark" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1E293B" opacity="0.45" />
+    </pattern>
+
+    <!-- Matrix Clip Path -->
+    <clipPath id="matrixClip_dark">
+      <rect x="44" y="96" width="400" height="320" rx="10" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .bold { font-weight: 700; }
+    .semibold { font-weight: 600; }
+    .medium { font-weight: 500; }
+    .regular { font-weight: 400; }
+  </style>
+
+  <!-- Outer Rounded Canvas Frame -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#bgGrad_dark)" stroke="#1E293B" stroke-width="1.5" />
+  
+  <!-- Subtle Ambient Glows & Grid -->
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#blueGlow_dark)" />
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#emeraldGlow_dark)" />
+  <rect x="0" y="0" width="1180" height="610" rx="20" fill="url(#dotGrid_dark)" />
+
+  <!-- ================= TOP TERMINAL HEADER ================= -->
+  <g id="top-bar">
+    <line x1="0" y1="48" x2="1180" y2="48" stroke="#1E293B" stroke-width="1" />
+    
+    <!-- Window Controls -->
+    <circle cx="32" cy="24" r="5" fill="#EF4444" />
+    <circle cx="50" cy="24" r="5" fill="#F59E0B" />
+    <circle cx="68" cy="24" r="5" fill="#10B981" />
+
+    <!-- Terminal Prompt Title -->
+    <text x="96" y="29" fill="#94A3B8" font-size="12px" class="mono medium">
+      anshuguleria10th-wq@system:~ (zsh) — 1180x610
+    </text>
+
+    <!-- Center Navigation Pill -->
+    <text x="590" y="29" fill="#64748B" font-size="11px" class="mono regular" text-anchor="middle" letter-spacing="2">
+      ENGINEERING_PROFILE // HYBRID_SYS
+    </text>
+
+    <!-- Right Status Indicator -->
+    <g transform="translate(1060, 16)">
+      <circle cx="8" cy="8" r="4" fill="#10B981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="20" y="12" fill="#10B981" font-size="11px" class="mono bold" letter-spacing="1">ONLINE</text>
+    </g>
+  </g>
+
+  <!-- ================= LEFT COLUMN: VISUAL IDENTITY & CODE MATRIX ================= -->
+  <g id="left-column">
+    <!-- Card Frame -->
+    <rect x="24" y="56" width="440" height="530" rx="14" fill="#091224" fill-opacity="0.75" stroke="#1E293B" stroke-width="1.2" />
+
+    <!-- Left Header -->
+    <text x="44" y="80" fill="#38BDF8" font-size="11px" class="mono bold" letter-spacing="1.5">
+      [ VISUAL.MAP // CORE_MATRIX ]
+    </text>
+    <text x="444" y="80" fill="#64748B" font-size="10px" class="mono" text-anchor="end">
+      SYS_REV: 4.3 // 60FPS
+    </text>
+
+    <!-- Visual Matrix Card Frame -->
+    <g clip-path="url(#matrixClip_dark)">
+      <rect x="44" y="96" width="400" height="320" rx="10" fill="#050B17" stroke="#17253D" stroke-width="1" />
+      
+      <!-- Inner Grid Dividers -->
+      <line x1="44" y1="126" x2="444" y2="126" stroke="#1E2E4A" stroke-dasharray="3 3" />
+      <line x1="44" y1="384" x2="444" y2="384" stroke="#1E2E4A" stroke-dasharray="3 3" />
+      
+      <!-- Telemetry Subheader -->
+      <text x="56" y="115" fill="#64748B" font-size="10px" class="mono">DAEMON: godot_node_bridge</text>
+      <text x="432" y="115" fill="#10B981" font-size="10px" class="mono" text-anchor="end">STATE: NORMAL</text>
+
+      <!-- Left Assembly / Engine Hex Dump Stream -->
+      <g opacity="0.75">
+        <text x="56" y="148" fill="#64748B" font-size="9.5px" class="mono">0x7F00  MOV RAX, [RSP+08]</text>
+        <text x="56" y="164" fill="#64748B" font-size="9.5px" class="mono">0x7F08  CALL godot::init</text>
+        <text x="56" y="180" fill="#64748B" font-size="9.5px" class="mono">0x7F10  TEST EAX, EAX</text>
+        <text x="56" y="196" fill="#64748B" font-size="9.5px" class="mono">0x7F18  JZ   0x7F40</text>
+        <text x="56" y="212" fill="#64748B" font-size="9.5px" class="mono">0x7F20  ASYNC express::listen</text>
+        <text x="56" y="228" fill="#64748B" font-size="9.5px" class="mono">0x7F28  VECTOR_SEARCH chromadb</text>
+        <text x="56" y="244" fill="#64748B" font-size="9.5px" class="mono">0x7F30  LANGCHAIN::pipe()</text>
+        <text x="56" y="260" fill="#64748B" font-size="9.5px" class="mono">0x7F38  MONGODB::connect()</text>
+        <text x="56" y="276" fill="#64748B" font-size="9.5px" class="mono">0x7F40  CPP::optimize_mesh()</text>
+        <text x="56" y="292" fill="#64748B" font-size="9.5px" class="mono">0x7F48  GDSCRIPT::signal_emit</text>
+        <text x="56" y="308" fill="#64748B" font-size="9.5px" class="mono">0x7F50  HTTP_RES: 200 OK</text>
+        <text x="56" y="324" fill="#64748B" font-size="9.5px" class="mono">0x7F58  VRAM_ALLOC: 512MB</text>
+        <text x="56" y="340" fill="#64748B" font-size="9.5px" class="mono">0x7F60  RENDER_PASS_CLEAR</text>
+        <text x="56" y="356" fill="#64748B" font-size="9.5px" class="mono">0x7F68  EVENT_LOOP::cycle()</text>
+        <text x="56" y="372" fill="#64748B" font-size="9.5px" class="mono">0x7F70  SYS_TELEMETRY: VALID</text>
+      </g>
+
+      <!-- Right Side Stack Stream -->
+      <g opacity="0.65">
+        <text x="350" y="148" fill="#38BDF8" font-size="9px" class="mono"># C++ CORE</text>
+        <text x="350" y="164" fill="#64748B" font-size="9px" class="mono">std::vector&lt;&gt;</text>
+        <text x="350" y="180" fill="#64748B" font-size="9px" class="mono">node.js :5000</text>
+        <text x="350" y="196" fill="#10B981" font-size="9px" class="mono"># GODOT 4.3</text>
+        <text x="350" y="212" fill="#64748B" font-size="9px" class="mono">_process(dt)</text>
+        <text x="350" y="228" fill="#64748B" font-size="9px" class="mono">mesh_inst_3d</text>
+        <text x="350" y="244" fill="#A78BFA" font-size="9px" class="mono"># AI PIPELINE</text>
+        <text x="350" y="260" fill="#64748B" font-size="9px" class="mono">embed_1536d</text>
+        <text x="350" y="276" fill="#64748B" font-size="9px" class="mono">rag_top_k=4</text>
+        <text x="350" y="292" fill="#64748B" font-size="9px" class="mono">gradio_ui</text>
+        <text x="350" y="308" fill="#F59E0B" font-size="9px" class="mono"># FITBHARAT</text>
+        <text x="350" y="324" fill="#64748B" font-size="9px" class="mono">split_routine</text>
+        <text x="350" y="340" fill="#64748B" font-size="9px" class="mono">protein_calc</text>
+        <text x="350" y="356" fill="#64748B" font-size="9px" class="mono">three_js_view</text>
+        <text x="350" y="372" fill="#10B981" font-size="9px" class="mono">status=ready</text>
+      </g>
+
+      <!-- CENTER CYBERNETIC ENGINE GLYPH (Game Dev + Systems Core) -->
+      <g id="center-glyph" transform="translate(244, 252)">
+        <!-- Outer Rotating Reticle -->
+        <circle cx="0" cy="0" r="62" fill="none" stroke="#38BDF8" stroke-width="1" stroke-dasharray="8 6" opacity="0.6">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite" />
+        </circle>
+        
+        <!-- Counter-rotating Inner Ring -->
+        <circle cx="0" cy="0" r="48" fill="none" stroke="#10B981" stroke-width="1.2" stroke-dasharray="14 10" opacity="0.7">
+          <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite" />
+        </circle>
+
+        <!-- Coordinate Gizmo Lines (3D Axes: X, Y, Z for Game Dev) -->
+        <line x1="0" y1="0" x2="38" y2="0" stroke="#EF4444" stroke-width="1.8" opacity="0.9" />
+        <line x1="0" y1="0" x2="0" y2="-38" stroke="#10B981" stroke-width="1.8" opacity="0.9" />
+        <line x1="0" y1="0" x2="-26" y2="26" stroke="#38BDF8" stroke-width="1.8" opacity="0.9" />
+
+        <!-- Isometric Cube Nodes -->
+        <polygon points="0,-28 24,-14 24,14 0,28 -24,14 -24,-14" fill="#38BDF8" fill-opacity="0.12" stroke="#38BDF8" stroke-width="1.2">
+          <animateTransform attributeName="transform" type="rotate" values="0;60;120;180;240;300;360" dur="20s" repeatCount="indefinite" />
+        </polygon>
+
+        <!-- Center Glowing Core Node -->
+        <circle cx="0" cy="0" r="8" fill="#10B981">
+          <animate attributeName="r" values="7;10;7" dur="2.4s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0.7;1;0.7" dur="2.4s" repeatCount="indefinite" />
+        </circle>
+        <circle cx="0" cy="0" r="3" fill="#FFFFFF" />
+
+        <!-- Axis Labels -->
+        <text x="42" y="4" fill="#EF4444" font-size="8px" class="mono bold">+X</text>
+        <text x="3" y="-40" fill="#10B981" font-size="8px" class="mono bold">+Y</text>
+        <text x="-32" y="34" fill="#38BDF8" font-size="8px" class="mono bold">+Z</text>
+      </g>
+
+      <!-- Dynamic Scanline Sweep -->
+      <line x1="44" y1="96" x2="444" y2="96" stroke="url(#scanGrad_dark)" stroke-width="2">
+        <animate attributeName="y1" values="96;416;96" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="96;416;96" dur="6s" repeatCount="indefinite" />
+      </line>
+
+      <!-- Matrix Status Footer -->
+      <text x="56" y="402" fill="#94A3B8" font-size="10px" class="mono">
+        IO_URING: <tspan fill="#10B981">POLLING</tspan> · DELTA: 0.016s · MEM: 42MB
+      </text>
+    </g>
+
+    <!-- Left Bottom Identity Content -->
+    <g transform="translate(44, 436)">
+      <text x="0" y="10" fill="#10B981" font-size="10.5px" class="mono bold" letter-spacing="1.5">
+        // ARCHITECTURE &amp; SYSTEMS
+      </text>
+      
+      <text x="0" y="34" fill="#F8FAFC" font-size="19px" class="mono bold" letter-spacing="-0.5">
+        C++ &amp; MERN ARCHITECT
+      </text>
+
+      <text x="0" y="54" fill="#94A3B8" font-size="11.5px" class="mono regular">
+        High-Performance Logic · 3D Games · Scalable APIs
+      </text>
+
+      <!-- Interactive-style Prompt Box -->
+      <rect x="0" y="68" width="400" height="42" rx="6" fill="#071021" stroke="#1E2E4A" stroke-width="1" />
+      <text x="12" y="86" fill="#38BDF8" font-size="11px" class="mono bold">
+        ~/anshuman <tspan fill="#64748B">$</tspan> <tspan fill="#F8FAFC">godot --run &amp;&amp; node server.js</tspan>
+      </text>
+      <text x="12" y="101" fill="#10B981" font-size="10px" class="mono">
+        [SYS] Initializing render pipelines &amp; microservices...
+      </text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT COLUMN: SYSTEM.INFO PANEL ================= -->
+  <g id="right-column">
+    <!-- Main Card Frame -->
+    <rect x="480" y="56" width="676" height="530" rx="14" fill="#091224" fill-opacity="0.75" stroke="#1E293B" stroke-width="1.2" />
+
+    <!-- Right Header -->
+    <g transform="translate(504, 80)">
+      <text x="0" y="0" fill="#38BDF8" font-size="11px" class="mono bold" letter-spacing="1.5">
+        [ SYSTEM.INFO // PROFILE_TELEMETRY ]
+      </text>
+      <text x="628" y="0" fill="#64748B" font-size="10.5px" class="mono" text-anchor="end">
+        NODE_ENV: PRODUCTION // V3.14
+      </text>
+    </g>
+
+    <!-- Shell Prompt Line -->
+    <g transform="translate(504, 104)">
+      <text x="0" y="0" fill="#10B981" font-size="11.5px" class="mono bold">guest@anshuman-node:~$</text>
+      <text x="180" y="0" fill="#F8FAFC" font-size="11.5px" class="mono regular">./fetch-spec --profile=verified</text>
+      <line x1="0" y1="12" x2="628" y2="12" stroke="url(#accentGrad_dark)" stroke-width="1" stroke-opacity="0.5" />
+    </g>
+
+    <!-- SPECIFICATION TABLE -->
+    <g id="spec-grid" transform="translate(504, 136)">
+      <!-- Row 1: NAME -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="0" fill="#38BDF8" font-size="12px" class="mono bold" letter-spacing="0.5">&gt; NAME</text>
+        <text x="120" y="0" fill="#F8FAFC" font-size="14.5px" class="mono bold">Anshuman Guleria</text>
+      </g>
+
+      <!-- Row 2: ROLE (SMIL Multi-Role Animated Rotation with Blinking Cursor) -->
+      <g transform="translate(0, 26)">
+        <text x="0" y="0" fill="#38BDF8" font-size="12px" class="mono bold" letter-spacing="0.5">&gt; ROLE</text>
+        
+        <!-- Role 1: Backend Software Engineer -->
+        <text x="120" y="0" fill="#10B981" font-size="13px" class="mono semibold">
+          Backend Software Engineer
+          <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.5;0.72;0.75;0.97;0.99;1" dur="12s" repeatCount="indefinite" />
+        </text>
+
+        <!-- Role 2: Indie Game Developer (Godot 4.3) -->
+        <text x="120" y="0" fill="#38BDF8" font-size="13px" class="mono semibold">
+          Indie Game Developer (Godot 4.3)
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0" keyTimes="0;0.24;0.26;0.47;0.5;0.75;0.9;0.95;0.98;1" dur="12s" repeatCount="indefinite" />
+        </text>
+
+        <!-- Role 3: AI & LangChain Enthusiast -->
+        <text x="120" y="0" fill="#A78BFA" font-size="13px" class="mono semibold">
+          AI &amp; LangChain Enthusiast
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0" keyTimes="0;0.48;0.49;0.51;0.72;0.75;0.85;0.9;0.95;1" dur="12s" repeatCount="indefinite" />
+        </text>
+
+        <!-- Role 4: Full-Stack MERN Developer -->
+        <text x="120" y="0" fill="#F59E0B" font-size="13px" class="mono semibold">
+          Full-Stack MERN Developer
+          <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0" keyTimes="0;0.73;0.74;0.76;0.96;0.98;0.99;0.995;0.998;1" dur="12s" repeatCount="indefinite" />
+        </text>
+
+        <!-- Continuous Cursor -->
+        <text x="390" y="0" fill="#38BDF8" font-size="13px" class="mono bold">
+          _
+          <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite" />
+        </text>
+      </g>
+
+      <!-- Row 3: STATUS -->
+      <g transform="translate(0, 52)">
+        <text x="0" y="0" fill="#38BDF8" font-size="12px" class="mono bold" letter-spacing="0.5">&gt; STATUS</text>
+        <text x="120" y="0" fill="#F8FAFC" font-size="12.5px" class="mono regular">
+          3rd Sem Software Engineering Student @ <tspan fill="#10B981" class="bold">NxtWave</tspan>
+        </text>
+      </g>
+
+      <!-- Row 4: LOCATION -->
+      <g transform="translate(0, 78)">
+        <text x="0" y="0" fill="#38BDF8" font-size="12px" class="mono bold" letter-spacing="0.5">&gt; LOCATION</text>
+        <text x="120" y="0" fill="#94A3B8" font-size="12.5px" class="mono regular">
+          Greater Noida, India <tspan fill="#64748B">[ 28.4744° N, 77.5040° E ]</tspan>
+        </text>
+      </g>
+
+      <!-- Row 5: FOCUS -->
+      <g transform="translate(0, 104)">
+        <text x="0" y="0" fill="#38BDF8" font-size="12px" class="mono bold" letter-spacing="0.5">&gt; FOCUS</text>
+        <text x="120" y="0" fill="#94A3B8" font-size="12px" class="mono regular">
+          Backend Architecture · Game Physics · Vector DBs &amp; RAG
+        </text>
+      </g>
+    </g>
+
+    <!-- SECTION: TECH STACK PILLS -->
+    <g transform="translate(504, 260)">
+      <text x="0" y="0" fill="#10B981" font-size="10.5px" class="mono bold" letter-spacing="1.2">
+        [ TECH.STACK // ACTIVE MODULES ]
+      </text>
+
+      <!-- Grid of Technology Badges (Row 1) -->
+      <g transform="translate(0, 14)">
+        <!-- C++ -->
+        <g transform="translate(0, 0)">
+          <rect width="64" height="26" rx="6" fill="#0B172E" stroke="#38BDF8" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#38BDF8" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono bold">C++</text>
+        </g>
+        <!-- JavaScript -->
+        <g transform="translate(72, 0)">
+          <rect width="98" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#F59E0B" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">JavaScript</text>
+        </g>
+        <!-- GDScript -->
+        <g transform="translate(178, 0)">
+          <rect width="86" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#10B981" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">GDScript</text>
+        </g>
+        <!-- Python -->
+        <g transform="translate(272, 0)">
+          <rect width="76" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#38BDF8" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">Python</text>
+        </g>
+        <!-- Node.js -->
+        <g transform="translate(356, 0)">
+          <rect width="80" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#10B981" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">Node.js</text>
+        </g>
+        <!-- Express.js -->
+        <g transform="translate(444, 0)">
+          <rect width="94" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#94A3B8" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">Express.js</text>
+        </g>
+        <!-- Godot 4.3 -->
+        <g transform="translate(546, 0)">
+          <rect width="82" height="26" rx="6" fill="#0B172E" stroke="#38BDF8" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#38BDF8" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono bold">Godot 4.3</text>
+        </g>
+      </g>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 48)">
+        <!-- MongoDB -->
+        <g transform="translate(0, 0)">
+          <rect width="86" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#10B981" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">MongoDB</text>
+        </g>
+        <!-- SQLite -->
+        <g transform="translate(94, 0)">
+          <rect width="70" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#38BDF8" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">SQLite</text>
+        </g>
+        <!-- ChromaDB -->
+        <g transform="translate(172, 0)">
+          <rect width="94" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#A78BFA" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">ChromaDB</text>
+        </g>
+        <!-- LangChain -->
+        <g transform="translate(274, 0)">
+          <rect width="96" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#10B981" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">LangChain</text>
+        </g>
+        <!-- Gradio -->
+        <g transform="translate(378, 0)">
+          <rect width="74" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#F59E0B" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">Gradio</text>
+        </g>
+        <!-- Git -->
+        <g transform="translate(460, 0)">
+          <rect width="56" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#EF4444" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">Git</text>
+        </g>
+        <!-- HuggingFace -->
+        <g transform="translate(524, 0)">
+          <rect width="104" height="26" rx="6" fill="#0B172E" stroke="#1E3A5F" stroke-width="1" />
+          <circle cx="12" cy="13" r="3" fill="#F59E0B" />
+          <text x="22" y="17" fill="#F8FAFC" font-size="11px" class="mono regular">HuggingFace</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- SECTION: FEATURED PROJECT -->
+    <g transform="translate(504, 356)">
+      <text x="0" y="0" fill="#38BDF8" font-size="10.5px" class="mono bold" letter-spacing="1.2">
+        [ FEATURED.PROJECT // BENCHMARK ]
+      </text>
+
+      <!-- Project Glass Card -->
+      <g transform="translate(0, 10)">
+        <rect width="628" height="66" rx="8" fill="#0D182E" stroke="#1E2E4A" stroke-width="1.2" />
+        
+        <!-- Project Header -->
+        <text x="14" y="22" fill="#F8FAFC" font-size="13.5px" class="mono bold">
+          FitBharatApp
+        </text>
+
+        <!-- Status badge -->
+        <rect x="126" y="9" width="168" height="18" rx="4" fill="#0B172E" stroke="#10B981" stroke-width="0.8" />
+        <circle cx="136" cy="18" r="3" fill="#10B981" />
+        <text x="146" y="22" fill="#10B981" font-size="9.5px" class="mono bold">
+          PRODUCTION // MERN + 3D
+        </text>
+
+        <!-- Live Link Indicator -->
+        <text x="614" y="22" fill="#38BDF8" font-size="10.5px" class="mono" text-anchor="end">
+          fit-bharat-app.vercel.app ↗
+        </text>
+
+        <!-- Description -->
+        <text x="14" y="41" fill="#94A3B8" font-size="11px" class="mono regular">
+          Fitness web application with custom workout splits, high-protein meal tracking &amp; 3D UI elements.
+        </text>
+        <text x="14" y="55" fill="#64748B" font-size="10px" class="mono">
+          Stack: MongoDB · Express.js · React · Node.js · Three.js/3D Assets · Vercel
+        </text>
+      </g>
+    </g>
+
+    <!-- SECTION: NETWORK & COMMS -->
+    <g transform="translate(504, 454)">
+      <text x="0" y="0" fill="#10B981" font-size="10.5px" class="mono bold" letter-spacing="1.2">
+        [ SECURE.COMMUNICATIONS // CHANNELS ]
+      </text>
+
+      <!-- Links Row -->
+      <g transform="translate(0, 12)">
+        <!-- GitHub -->
+        <g transform="translate(0, 0)">
+          <rect width="186" height="28" rx="6" fill="#0B172E" stroke="#1E2E4A" stroke-width="1" />
+          <text x="10" y="18" fill="#38BDF8" font-size="10px" class="mono bold">GH &gt;</text>
+          <text x="40" y="18" fill="#F8FAFC" font-size="10.5px" class="mono regular">anshuguleria10th-wq</text>
+        </g>
+        <!-- LinkedIn -->
+        <g transform="translate(196, 0)">
+          <rect width="216" height="28" rx="6" fill="#0B172E" stroke="#1E2E4A" stroke-width="1" />
+          <text x="10" y="18" fill="#38BDF8" font-size="10px" class="mono bold">IN &gt;</text>
+          <text x="40" y="18" fill="#F8FAFC" font-size="10.5px" class="mono regular">in/anshuman-guleria...</text>
+        </g>
+        <!-- Email -->
+        <g transform="translate(422, 0)">
+          <rect width="206" height="28" rx="6" fill="#0B172E" stroke="#1E2E4A" stroke-width="1" />
+          <text x="10" y="18" fill="#10B981" font-size="10px" class="mono bold">MAIL &gt;</text>
+          <text x="56" y="18" fill="#F8FAFC" font-size="10.5px" class="mono regular">anshuguleria10th...</text>
+        </g>
+      </g>
+
+      <!-- Telemetry Checksum -->
+      <g transform="translate(0, 56)">
+        <text x="0" y="0" fill="#64748B" font-size="9.5px" class="mono">
+          SHA-256: 0x9AF84..D21 · PROTOCOL: SECURE · GITHUB_PROFILE_REV_2026
+        </text>
+        <text x="628" y="0" fill="#10B981" font-size="9.5px" class="mono bold" text-anchor="end">
+          ● REPO_READY
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
